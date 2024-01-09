@@ -7,6 +7,8 @@ function App() {
 
   const baserowApi = LCUState.BaserowApi;
   const baserowQuery = LCUState.BaserowQuery;
+
+  const lcuStateTitle = LCUState.LCUStateTitle;
   
   useEffect(() => {
     axios({
@@ -20,6 +22,7 @@ function App() {
 
   return (
     <>
+    <h3>{lcuStateTitle}</h3>
       {post.results.map((item: any) => (
         <div key={item.id}>
           NA?: {item["If North America"] ? "true" : "false"}<br />
