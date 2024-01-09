@@ -1,0 +1,7 @@
+{
+    "BaserowApi": "/api/baserow",
+    "BaserowQuery": "?user_field_names=true",
+    "DefaultPrefs": {
+        "PrefA": 1
+    }
+}
